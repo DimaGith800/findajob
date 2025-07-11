@@ -310,4 +310,346 @@ main {
             }
         }
     }
+
+    .vacancies {
+        width: 100%;
+        max-width: 1146px;
+        margin: 0 auto;
+
+        &_title {
+            font-family: Fira Sans;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: #111238;
+            margin-top: 150px;
+            margin-bottom: 40px;
+        }
+
+        &_container {
+            width: 100%;
+            margin-bottom: 40px;
+
+            &--content {
+                border: 1px solid #C5C9D4;
+                margin-bottom: 20px;
+                border-radius: 10px;
+                max-width: 1061px;
+
+                &--card {
+                    width: 100%;
+                    max-width: 1061px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 30px 55px 30px 30px;
+                    
+                    &--box {
+                        width: 100%;
+                        max-width: 791px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        &--info {
+                            width: 100%;
+                            max-width: 452px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+
+                            &--details {
+                                width: 100%;
+                                max-width: 293px;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+
+                                &--themselves {
+                                    &--species {
+                                        font-family: Fira Sans;
+                                        font-weight: 700;
+                                        font-size: 16px;
+                                        line-height: 100%;
+                                        letter-spacing: 0%;
+                                        color: #111238;
+                                        margin-bottom: 10px;
+                                    }
+
+                                    &--place {
+                                        font-family: Fira Sans;
+                                        font-weight: 400;
+                                        font-size: 14px;
+                                        line-height: 100%;
+                                        letter-spacing: 0%;
+                                        color: #111238;
+                                    }
+                                }
+                            }
+
+                            &--salary {
+                                font-family: Fira Sans;
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 100%;
+                                letter-spacing: 0%;
+                                text-align: center;
+                                color: #FFFFFF;
+                                background-color: #1A75E8;
+                                padding: 10px 25px;
+                                border: none;
+                                outline: none;
+                                border-radius: 5px;
+                            }
+                        }
+
+                        &--requirements {
+                            width: 100%;
+                            max-width: 281px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+
+                            &--title {
+                                font-family: Fira Sans;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 100%;
+                                letter-spacing: 0%;
+                                color: #B2B2B2;
+                            }
+
+                            &--knowledges {
+                                width: 100%;
+                                max-width: 183px;
+                                display: flex;
+                                justify-content: space-between;
+
+                                button {
+                                    font-family: Fira Sans;
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 100%;
+                                    letter-spacing: 0%;
+                                    color:#B2B2B2;
+                                    background: none;
+                                    padding: 5px 10px;
+                                    border: 1px solid #B2B2B2;
+                                    border-radius: 5px;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+
+                    &--more {
+                        font-family: Fira Sans;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #1A75E8;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        &_more {
+            font-family: Fira Sans;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-align: center;
+            color: #FFFFFF;
+            cursor: pointer;
+            padding: 15px 30px;
+            background-color: #1A75E8;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 80px;
+        }
+    }
+
+    .subscribe {
+        background-color: #F2F3F6;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        
+        &_container {
+            width: 100%;
+            max-width: 460px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &--title {
+                font-family: Fira Sans;
+                font-weight: 900;
+                font-size: 36px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-align: center;
+                color: #111238;
+                margin-bottom: 20px;
+            }
+
+            &--desc {
+                font-family: Fira Sans;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 140%;
+                letter-spacing: 0%;
+                text-align: center;
+                color: #111238;
+                margin-bottom: 40px;
+                max-width: 388px;
+            }
+
+            &--input {
+                border: 1px solid #D1D1D11A;
+                background-color: #FFFFFF;
+                padding: 11px 10px 10px 25px;
+                display: flex;
+                box-shadow: 0px 4px 25px 0px #0F11381A;
+                border-radius: 5px;
+
+                input {
+                    border: none;
+                    outline: none;
+                    font-family: Fira Sans;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #b2b2b2;
+                }
+
+                &--search {
+                    padding: 15px 30px;
+                    font-family: Fira Sans;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #FFFFFF;
+                    background-color: #1A75E8;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                    display: flex;
+                    border-radius: 5px;
+                    
+                    p {
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+.footer {
+    width: 100%;
+    max-width: 1064px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 64px;
+    margin-top: 70px;
+
+    &_info {
+        width: 100%;
+        max-width: 190px;
+
+        &--desc {
+            font-family: Fira Sans;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 140%;
+            letter-spacing: 0%;
+            color: #b2b2b2;
+            margin-top: 33px;
+            margin-bottom: -8px;
+        }
+
+        &--year {
+            font-family: Fira Sans;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 140%;
+            letter-spacing: 0%;
+            color: #b2b2b2;
+        }
+    }
+
+    &_container {
+        width: 100%;
+        max-width: 810px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;    
+        margin-top: 32px;
+
+        &--content {
+            width: 100%;
+            max-width: 459px;
+            display: flex;
+            justify-content: space-between;
+
+            &--box {
+                &--title {
+                    font-family: Fira Sans;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #111238;
+                    margin-bottom: 15px;
+                }
+
+                a {
+                    font-family: Fira Sans;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #111238;
+                    margin-bottom: 10px;
+                    text-decoration: none;
+                    display: block;
+                }
+            }
+        }
+
+        &--nav {
+            &--title {
+                font-family: Fira Sans;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                color: #111238;
+                margin-bottom: 15px;
+            }
+
+            a {
+                font-family: Fira Sans;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-decoration: none;
+                display: block;
+                margin-bottom: 10px;
+                color: #111238;
+            }
+        }
+    }
 }

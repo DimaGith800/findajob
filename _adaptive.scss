@@ -60,12 +60,13 @@
                     font-size: 27px;
                     text-align: center;
                 }
+
                 &_container {
-                    max-width: 650px !important;
+                    max-width: 362px;
                     margin: 0 auto;
                     display: grid;
                     grid-template-columns: 1fr 1fr;
-                    gap: 20px;
+                    gap: 25px;
 
                     &_--content {
                         width: 100%;
@@ -73,9 +74,82 @@
                     }  
                 }
             }
+            .vacancies {
+                max-width: 618px;
+                &_title {
+                    text-align: center;
+                }
+                &_container {
+                    max-width: 850px;
+
+                    &--content {
+                        max-width: 620px;
+                        &--card {
+                            padding: 30px 54px;
+                            &--box {
+                                max-width: 295px;
+                                flex-direction: column;
+
+                                &--info {
+                                    flex-direction: column;
+
+                                    &--details {
+                                        margin-bottom: 15px;
+                                    }
+
+                                    &--salary {
+                                        margin-bottom: 25px;
+                                    }
+                                }
+                            }
+
+                            
+                        }
+                    }
+                }
+            }
+        }
+
+        
+
+        .footer {
+            max-width: 825px;
+            flex-direction: column;
+            align-items: center;
+
+            &_info {
+                &--logo {
+                    display: block;
+                    margin: 0 auto;
+                }
+
+                &--desc {
+                    margin-top: 26px;
+                    margin-bottom: 3px;
+                    text-align: center;
+                }
+
+                &--year {
+                    text-align: center;
+                }
+            }
+
+            &_container {
+                max-width: 466px;
+                flex-direction: column;
+
+                &--content {
+                    margin-bottom: 40px;
+                }
+
+                &--nav {
+                    a {
+                        text-align: center;
+                    }
+                }
+            }
         }
     }
-    
 }
 @media (max-width: 768px) {
     body {
@@ -163,10 +237,14 @@
                     &--interact {
                         width: 100%;
                         max-width: 330px;
+                        position: absolute;
+                        bottom: 40px;
+                        left: 50%;
+                        transform: translateX(-50%);
                         margin: 0 auto;
                         display: flex;
                         justify-content: space-between;
-                        margin-top: 620px;
+                        
 
                         &--register {
                             font-family: Fira Sans;
@@ -237,14 +315,127 @@
                 padding-left: 15px;
 
                 &_title {
+                    font-size: 18px;
                     text-align: center;
                 }
 
                 &_container {
-                    max-width: 266px !important;
+                    max-width: 166px !important;
                     margin: 0 auto;
                     display: flex;
                     flex-direction: column;
+                }
+            }
+            .vacancies {
+                max-width: 290px;
+
+                &_title {
+                    font-size: 18px;
+                    margin-top: 50px;
+                    margin-bottom: 40px;
+                }       
+
+                &_container {
+                    max-width: 290px;
+
+                    &--content {
+                        width: 100%;
+                        max-width: 290px;
+                        padding: 30px 54px;
+
+                        &--card {
+                            flex-direction: column;
+
+                            &--box {
+                                max-width: 183px;
+                                flex-direction: column;
+
+                                &--info {
+                                    max-width: 183px;
+                                    flex-direction: column;
+                                    align-items: center;
+
+                                    &--details {
+                                        flex-direction: column;
+
+                                        &--themselves {
+                                            flex-direction: column;
+                                            text-align: center;
+                                        }
+                                    }
+                                }
+
+                                &--requirements {
+                                    max-width: 183px;
+                                    flex-direction: column;
+
+                                    &--title {
+                                        display: block;
+                                        margin: 0 auto;
+                                    }
+                                }
+                            }
+                            &--more {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+            .subscribe {
+                &_container {
+                    max-width: 290px;
+
+                    &--title {
+                        font-size: 24px;
+                    }
+
+                    &--desc {
+                        max-width: 290px;
+                    }
+
+                    &--input {
+                        padding: 13px 10px 13px 25px;
+
+                        &--search {
+                            padding: 15px 30px;
+                            p {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer {
+            max-width: 170px;
+
+            &_info {
+                &--desc {
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                }
+            }
+
+            &_container {
+                max-width: 170px;
+                
+                &--content {
+                    margin: 0;
+                    flex-direction: column;
+
+                    &--box {
+                        margin-bottom: 30px;
+
+                        &--title {
+                            text-align: center;
+                        }
+
+                        a {
+                            text-align: center;
+                        }
+                    }
                 }
             }
         }
